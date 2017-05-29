@@ -1,398 +1,49 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Priya Modular Kitchen and Interiors</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 
-	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
 	<link rel="stylesheet" href="css/flexslider.css">
-
-	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
-	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
+</head>
+<body ng-app="app">
 
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<!-- <div class="top-menu"> -->
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 text-center logo-wrap">
-						<div id="fh5co-logo"><a href="index.html">Priya Modular Kitchen and Interiors<span>.</span></a></div>
-					</div>
-					<div class="col-xs-12 text-center menu-1 menu-wrap">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="finishes.html">Finishes</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-						</ul>
-					</div>
-				</div>
+		<div ng-include="'views/partials/navbar.html'"></div>
 
-			</div>
-		<!-- </div> -->
-	</nav>
+		<div ui-view></div>
 
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="display-t js-fullheight">
-						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<h1>Go stylish with modular kitchen and wardrobes</h1>
-							<h2>To Suit your budget</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<div id="fh5co-about" class="fh5co-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
-					<img src="images/hero_1.jpeg" alt="Anonymity Freelancing">
-				</div>
-				<div class="col-md-5 col-md-push-1 animate-box">
-					<div class="section-heading">
-						<h2>How it started</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae neque quisquam at deserunt ab praesentium architecto tempore saepe animi voluptatem molestias, eveniet aut laudantium alias, laboriosam excepturi, et numquam? Atque tempore iure tenetur perspiciatis, aliquam, asperiores aut odio accusamus, unde libero dignissimos quod aliquid neque et illo vero nesciunt. Sunt!</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam iure reprehenderit nihil nobis laboriosam beatae assumenda tempore, magni ducimus abentey.</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Our History</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-featured-menu" class="fh5co-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Sample works</h2>
-					<div class="row">
-						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
-					<div class="fh5co-item">
-						<img src="images/gallery_9.jpeg" class="img-responsive" alt="Anonymity Freelancing">
-						<h3>Modular 1</h3>
-						<span class="fh5co-price">Rs 20<sup>.50</sup></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
-					<div class="fh5co-item margin_top">
-						<img src="images/gallery_8.jpeg" class="img-responsive" alt="Anonymity Freelancing">
-						<h3>Modular 2</h3>
-						<span class="fh5co-price">Rs 19<sup>.00</sup></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
-					</div>
-				</div>
-				<div class="clearfix visible-sm-block visible-xs-block"></div>
-				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
-					<div class="fh5co-item">
-						<img src="images/gallery_7.jpeg" class="img-responsive" alt="Anonymity Freelancing">
-						<h3>Modular 3</h3>
-						<span class="fh5co-price">Rs 17<sup>.99</sup></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
-					<div class="fh5co-item margin_top">
-						<img src="images/gallery_6.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
-						<h3>Modular 4</h3>
-						<span class="fh5co-price">Rs 22<sup>.50</sup></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-featured-testimony" class="fh5co-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Testimony</h2>
-					<div class="row">
-						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-5 animate-box img-to-responsive animate-box" data-animate-effect="fadeInLeft">
-						<img src="images/person_1.jpg" alt="">
-				</div>
-				<div class="col-md-7 animate-box" data-animate-effect="fadeInRight">
-					<blockquote>
-						<p> &ldquo; A Room should never allow the eye to settle in one place. It should smile at you and create fantasy &rdquo;</p>
-						<p class="author"><cite>&mdash; Juan Montoya</cite></p>
-					</blockquote>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-slider" class="fh5co-section animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 animate-box">
-					<div class="fh5co-heading">
-						<h2>Our Top <em>&amp;</em> Works</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis!</p>
-					</div>
-				</div>
-				<div class="col-md-6 col-md-push-1 animate-box">
-					<aside id="fh5co-slider-wrwap">
-					<div class="flexslider">
-						<ul class="slides">
-					   	<li style="background-image: url(images/gallery_7.jpeg);">
-					   		<div class="overlay-gradient"></div>
-					   		<div class="container-fluid">
-					   			<div class="row">
-						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
-						   				<div class="slider-text-inner">
-						   					<div class="desc">
-													<h2>Modular 3</h2>
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eveniet quae, numquam magnam doloribus eligendi ratione rem, consequatur quos natus voluptates est totam magni! Nobis a temporibus, ipsum repudiandae dolorum.</p>
-													<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
-						   					</div>
-						   				</div>
-						   			</div>
-						   		</div>
-					   		</div>
-					   	</li>
-					   	<li style="background-image: url(images/gallery_6.jpeg);">
-					   		<div class="overlay-gradient"></div>
-					   		<div class="container-fluid">
-					   			<div class="row">
-						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
-						   				<div class="slider-text-inner">
-						   					<div class="desc">
-													<h2>Modular 1 <em>&amp;</em> Classic</h2>
-													<p>Ink is a free html5 bootstrap and a multi-purpose template perfect for any type of websites. A combination of a minimal and modern design template. The features are big slider on homepage, smooth animation, product listing and many more</p>
-													<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
-						   					</div>
-						   				</div>
-						   			</div>
-						   		</div>
-					   		</div>
-					   	</li>
-					   	<li style="background-image: url(images/gallery_5.jpeg);">
-					   		<div class="overlay-gradient"></div>
-					   		<div class="container-fluid">
-					   			<div class="row">
-						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
-						   				<div class="slider-text-inner">
-						   					<div class="desc">
-													<h2>Modular 2 <em>with</em> Medium</h2>
-													<p>nk is a free html5 bootstrap and a multi-purpose template perfect for any type of websites. A combination of a minimal and modern design template. The features are big slider on homepage, smooth animation, product listing and many more</p>
-													<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
-						   					</div>
-						   				</div>
-						   			</div>
-						   		</div>
-					   		</div>
-					   	</li>
-					  	</ul>
-				  	</div>
-				</aside>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-blog" class="fh5co-section">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Ongoing Projects</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, consequatur. Aliquam quaerat pariatur repellendus veniam nemo, saepe, culpa eius aspernatur cumque suscipit quae nobis illo tempora. Eum veniam necessitatibus, blanditiis facilis quidem dolore! Dolorem, molestiae.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/gallery_1.jpeg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Feb. 15th 2016</span>
-							<h3><a href="#">Photoshoot On The Street</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>1.2K</li>
-								<li><i class="icon-eye2"></i>2K</li>
-								<li><a href="#">Know more<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/gallery_2.jpeg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Feb. 15th 2016</span>
-							<h3><a href="#">Surfing at Philippines</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>1.2K</li>
-								<li><i class="icon-eye2"></i>2K</li>
-								<li><a href="#">Know More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/gallery_3.jpeg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Feb. 15th 2016</span>
-							<h3><a href="#">Focus On Uderwater</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>1.2K</li>
-								<li><i class="icon-eye2"></i>2K</li>
-								<li><a href="#">Know More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-lg-6">
-					<form method="POST" action="https://formspree.io/modularkitchen122@gmail.com">
-						<div class="form-group">
-							<input class="form-control" type="text" name="name" placeholder="Name">
-						</div>
-						<div class="form-group">
-							<input class="form-control" type="email" name="_replyto" placeholder="Email">
-						</div>
-						<div class="form-group">
-							<textarea name="message" class="form-control" rows="6" placeholder="Message"></textarea>
-						</div>
-						<div class="col-lg-12">
-							<button type="submit" class="btn btn-lg btn-primary" style="display: block; margin: 0 auto;">Send Message</button>
-						</div>
-					</form>
-				</div>
-				<div class="col-lg-6">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.065353088309!2d80.26364905221789!3d13.090901753472387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265e59f75bb21%3A0xab2ca5245cc82382!2sVijayvinagar+Koil+St%2C+Choolai%2C+Chennai%2C+Tamil+Nadu+600112!5e0!3m2!1sen!2sin!4v1495532974566" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
-		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-4 fh5co-widget">
-					<h4>Modular Kitchen</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-				</div>
-
-				<div class="col-md-6 col-md-push-2 fh5co-widget">
-					<h4>Contact Information</h4>
-					<ul class="fh5co-footer-links">
-						<li>V.D.Ravishankar</li>
-						<li>#32, V.V.Koil lane,</li>
-						<li>Choolai, Chennai-600112. </li>
-						<li><a href="tel://8939158825">8939158825</a></li>
-						<li><a href="mailto:loguvdrs@gmail.com">loguvdrs@gmail.com</a></li>
-					</ul>
-				</div>
-
-			</div>
-
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2017 Anonymity Freelancing. All Rights Reserved.</small>
-						<small class="block">Designed by <a href="#" target="_blank"></a>  <a href="#" target="_blank"> Anonymity Freelancing</a></small>
-					</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-						</ul>
-					</p>
-				</div>
-			</div>
-
-		</div>
-	</footer>
+		<div ng-include="'views/partials/footer.html'"></div>
 	</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
 	</div>
 
-	<!-- jQuery -->
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-ui-router.min.js"></script>
+	<script src="js/app.js"></script>
 	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Waypoints -->
 	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Main -->
 	<script src="js/main.js"></script>
 
-	</body>
+</body>
 </html>
 
