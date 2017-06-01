@@ -4,6 +4,37 @@ header {
     min-height: 500px;
 }
 
+.fh5co-section blockquote {
+    border: 0px;
+}
+
+.margin-top-200 {
+    margin-top: 200px;
+}
+
+.fh5co-section blockquote p {
+    font-size: 40px;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: 300;
+    color: #fff;
+    text-align: justify;
+}
+
+.fh5co-section blockquote p.smaller {
+    font-size: 26px;
+}
+
 .fh5co-bg-img {
     width: 100%;
+}
+
+.dropdown .dropdown-menu li a {
+    color: #000;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.dropdown .dropdown-menu li a:hover, .dropdown .dropdown-menu li a:focus, .dropdown .dropdown-menu li a:active {
+    color: #ea272d;
 }

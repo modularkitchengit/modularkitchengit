@@ -1,23 +1,49 @@
 <nav class="fh5co-nav" role="navigation">
-    <!-- <div class="top-menu"> -->
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center logo-wrap">
-                    <div id="fh5co-logo"><a ui-sref="app.home">Priya Modular Kitchen and Interiors<span>.</span></a></div>
-                </div>
-                <div class="col-xs-12 text-center menu-1 menu-wrap">
-                    <ul>
-                        <li ui-sref-active="active"><a ui-sref="app.home">Home</a></li>
-                        <li ui-sref-active="active"><a ui-sref="app.about">About Us</a></li>
-                        <li ui-sref-active="active"><a ui-sref="app.products">Products</a></li>
-                        <li ui-sref-active="active"><a ui-sref="app.specs">Material Specification</a></li>
-                        <li ui-sref-active="active"><a ui-sref="app.designs">Kitchen Designs</a></li>
-                        <li ui-sref-active="active"><a ui-sref="app.gallery">Gallery</a></li>
-                        <li ui-sref-active="active"><a ui-sref="app.contact">Contact Us</a></li>
-                    </ul>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center logo-wrap">
+                <div id="fh5co-logo"><a ui-sref="app.home">Priya Modular Kitchen and Interiors<span>.</span></a></div>
             </div>
-
+            <div class="col-xs-12 text-center menu-1 menu-wrap">
+                <ul>
+                    <li ui-sref-active="active"><a ui-sref="app.home">Home</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.about">About Us</a></li>
+                    <li class="dropdown" ui-sref-active="active">
+                        <a class="dropdown-toggle" data-toggle="dropdown" ui-sref="app.products">
+                            Products
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a ui-sref="app.products.kitchen">Modular Kitchen</a></li>
+                            <li><a ui-sref="app.products.wardrobes">Wardrobes</a></li>
+                            <li><a ui-sref="app.products.crockery">Crockery Units</a></li>
+                            <li><a ui-sref="app.products.tvracks">TV rack design</a></li>
+                            <li><a ui-sref="app.products.poojadesign">Pooja design</a></li>
+                            <li><a ui-sref="app.products.bookshelves">Book shelves</a></li>
+                            <li><a ui-sref="app.products.comptables">Computer Tables</a></li>
+                            <li><a ui-sref="app.products.studytable">Kids Study table</a></li>
+                            <li><a ui-sref="app.products.shoerack">Shoe rack</a></li>
+                        </ul>
+                    </li>
+                    <li ui-sref-active="active"><a ui-sref="app.specs">Material Specification</a></li>
+                    <li class="dropdown" ui-sref-active="active">
+                        <a class="dropdown-toggle" data-toggle="dropdown" ui-sref="app.designs">
+                            Kitchen Designs
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a ui-sref="app.designs.ushape">U-Shape Kitchen</a></li>
+                            <li><a ui-sref="app.designs.parallel">Parallel Kitchen</a></li>
+                            <li><a ui-sref="app.designs.lshape">L-Shape Kitchen</a></li>
+                            <li><a ui-sref="app.designs.compact">Compact Island Kitchen</a></li>
+                            <li><a ui-sref="app.designs.straight">Straight Kitchen</a></li>
+                        </ul>
+                    </li>
+                    <li ui-sref-active="active"><a ui-sref="app.gallery">Gallery</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.contact">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-    <!-- </div> -->
+
+    </div>
 </nav>
