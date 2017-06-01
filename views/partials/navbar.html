@@ -3,14 +3,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center logo-wrap">
-                    <div id="fh5co-logo"><a href="#!/">Priya Modular Kitchen and Interiors<span>.</span></a></div>
+                    <div id="fh5co-logo"><a ui-sref="app.home">Priya Modular Kitchen and Interiors<span>.</span></a></div>
                 </div>
                 <div class="col-xs-12 text-center menu-1 menu-wrap">
                     <ul>
-                        <li><a detect-active-tab="1" href="#!/">Home</a></li>
-                        <li><a detect-active-tab="1" href="#!/about">About Us</a></li>
-                        <li><a detect-active-tab="1" href="#!/gallery">Gallery</a></li>
-                        <li><a detect-active-tab="1" href="#!/contact">Contact Us</a></li>
+                        <li ui-sref-active="active"><a ui-sref="app.home">Home</a></li>
+                        <li ui-sref-active="active"><a ui-sref="app.about">About Us</a></li>
+                        <li ui-sref-active="active"><a ui-sref="app.products">Products</a></li>
+                        <li ui-sref-active="active"><a ui-sref="app.specs">Material Specification</a></li>
+                        <li ui-sref-active="active"><a ui-sref="app.designs">Kitchen Designs</a></li>
+                        <li ui-sref-active="active"><a ui-sref="app.gallery">Gallery</a></li>
+                        <li ui-sref-active="active"><a ui-sref="app.contact">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
