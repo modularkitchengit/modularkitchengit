@@ -8,19 +8,58 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-md-12 fh5co-heading animate-box" style="margin-bottom: 20px;">
-				<h2>Category 1</h2>
+			<div class="col-md-12 fh5co-heading animate-box" style="margin: 20px 0px;">
+				<h2>Modular Kitchen</h2>
 			</div>
-			<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-				<div class="fh5co-bg-img" style="background-image: url(images/gallery/category1/1.png);" data-trigger="zoomerang"></div>
-				<div class="fh5co-bg-img" style="background-image: url(images/gallery/category1/2.png);" data-trigger="zoomerang"></div>
-			</div>
-			<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-				<div class="fh5co-bg-img" style="background-image: url(images/gallery/category1/3.png);" data-trigger="zoomerang"></div>
-				<div class="fh5co-bg-img" style="background-image: url(images/gallery/category1/4.png);" data-trigger="zoomerang"></div>
+			<div ng-repeat="n in [].constructor(4) track by $index" class="col-md-6 col-sm-6 fh5co-gallery_item">
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/kitchen/image{{$index + 12}}.png);" data-trigger="zoomerang"></div>
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/kitchen/image{{$index + 16}}.png);" data-trigger="zoomerang"></div>
 			</div>
 
-			<div class="col-md-12 fh5co-heading animate-box" style="margin-bottom: 20px;">
+			<div class="col-md-12 fh5co-heading animate-box" style="margin: 20px 0px;">
+				<h2>Wardrobes</h2>
+			</div>
+			<div ng-repeat="n in [].constructor(3) track by $index" class="col-md-6 col-sm-6 fh5co-gallery_item">
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/wardrobes/image{{$index + 20}}.png);" data-trigger="zoomerang"></div>
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/wardrobes/image{{$index + 23}}.png);" data-trigger="zoomerang"></div>
+			</div>
+
+			<div class="col-md-12 fh5co-heading animate-box" style="margin: 20px 0px;">
+				<h2>Crockery</h2>
+			</div>
+			<div ng-repeat="n in [].constructor(2) track by $index" class="col-md-6 col-sm-6 fh5co-gallery_item">
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/crockery/image{{$index + 26}}.png);" data-trigger="zoomerang"></div>
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/crockery/image{{$index + 28}}.png);" data-trigger="zoomerang"></div>
+			</div>
+
+			<div class="col-md-12 fh5co-heading animate-box" style="margin: 20px 0px;">
+				<h2>TV Racks</h2>
+			</div>
+			<div class="col-md-6 col-sm-12 fh5co-gallery_item">
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/tvracks/image30.png);" data-trigger="zoomerang"></div>
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/tvracks/image31.png);" data-trigger="zoomerang"></div>
+			</div>
+			<div class="col-md-6 col-sm-12 fh5co-gallery_item">
+				<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/gallery/tvracks/image32.png);" data-trigger="zoomerang"></div>
+			</div>
+
+			<div class="col-md-12 fh5co-heading animate-box" style="margin: 20px 0px;">
+				<h2>Computer Tables</h2>
+			</div>
+			<div ng-repeat="n in [].constructor(2) track by $index" class="col-md-6 col-sm-6 fh5co-gallery_item">
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/comptables/image{{$index + 33}}.png);" data-trigger="zoomerang"></div>
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/comptables/image{{$index + 35}}.png);" data-trigger="zoomerang"></div>
+			</div>
+
+			<div class="col-md-12 fh5co-heading animate-box" style="margin: 20px 0px;">
+				<h2>Shoe Racks</h2>
+			</div>
+			<div ng-repeat="n in [].constructor(2) track by $index" class="col-md-6 col-sm-6 fh5co-gallery_item">
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/shoerack/image{{$index + 37}}.png);" data-trigger="zoomerang"></div>
+				<div class="fh5co-bg-img" style="background-image: url(images/gallery/shoerack/image{{$index + 39}}.png);" data-trigger="zoomerang"></div>
+			</div>
+
+			<!--<div class="col-md-12 fh5co-heading animate-box" style="margin-bottom: 20px;">
 				<h2>Category 2</h2>
 			</div>
 			<div class="col-md-3 col-sm-3 fh5co-gallery_item">
@@ -81,7 +120,7 @@
 			<div ng-repeat="n in [].constructor(10) track by $index" class="col-md-6 col-sm-6 fh5co-gallery_item">
 				<div class="fh5co-bg-img" style="background-image: url(images/gallery/category6/{{$index + 1}}.png);" data-trigger="zoomerang"></div>
 				<div class="fh5co-bg-img" style="background-image: url(images/gallery/category6/{{$index + 11}}.png);" data-trigger="zoomerang"></div>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </div>
