@@ -5,26 +5,25 @@
     ]);
 
     angular.module('app').run(function($rootScope, $window, $location) {
+        $rootScope.$on('$includeContentLoaded', function() {
+            $window.mobileMenuOutsideClick();
+            $window.offcanvasMenu();
+            $window.burgerMenu();
+            $window.contentWayPoint();
+            $window.sliderMain();
+            $window.dropdown();
+            $window.goToTop();
+            $window.loaderPage();
+            $window.counterWayPoint();
+            $window.fullHeight();
+            $window.parallax();
+            $window.DateTimePickerFunc();
 
-        // angular.element(document).ready(function() {
-		//     $window.jQuery('.js-fullheight').css('height', $window.jQuery($window).height());
-        // });
-
-        // $rootScope.$watch(function() {
-        //     return $location.path();
-        // }, function(a){
-		//     $window.jQuery('.js-fullheight').css('height', $window.jQuery($window).height());
-        // });
-
-        // $rootScope.$on("$locationChangeSuccess", function(event, next, current) {
-        //     $window.jQuery('.js-fullheight').css('height', $window.jQuery($window).height());
-        // });
-
-        // angular.element($window).bind('resize', function(){
-        //     angular.element(document).ready(function() {
-        //         $window.jQuery('.js-fullheight').css('height', $window.jQuery($window).height());
-        //     });
-        // });
+            $window.jQuery('.fh5co-bg-img').each(function(){
+                $window.jQuery(this).css('width', '100%');
+            });
+            $window.zoomFunc();
+        });
     });
 
 }());

@@ -311,28 +311,24 @@
 	   }
 	}
 
+	// $(document).ready(function() {
+	// 	mobileMenuOutsideClick();
+	// 	offcanvasMenu();
+	// 	burgerMenu();
+	// 	contentWayPoint();
+	// 	sliderMain();
+	// 	dropdown();
+	// 	goToTop();
+	// 	loaderPage();
+	// 	counterWayPoint();
+	// 	fullHeight();
+	// 	parallax();
+	// 	DateTimePickerFunc();
 
-	$(function(){
-		mobileMenuOutsideClick();
-		offcanvasMenu();
-		burgerMenu();
-		contentWayPoint();
-		sliderMain();
-		dropdown();
-		goToTop();
-		loaderPage();
-		counterWayPoint();
-		fullHeight();
-		parallax();
-		DateTimePickerFunc();
+	// 	$('.fh5co-bg-img').each(function(){
+	// 		$(this).css('width', '100%');
+	// 	});
+	// 	zoomFunc();
+	// });
 
-		$('.fh5co-bg-img').each(function(){
-			$(this).css('width', '100%');
-		});
-		// zoomFunc();
-	});
-
-	$(document).ready(function() {
-		$(document).trigger('resize');
-	});
 }());

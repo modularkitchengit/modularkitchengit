@@ -10,8 +10,7 @@
         $stateProvider
 			.state('app', {
 				abstract: true,
-				url: '',
-				template: '<ui-view/>'
+				url: ''
 			})
             .state('app.home', {
                 url: '',
