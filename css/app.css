@@ -38,3 +38,7 @@ header {
 .dropdown .dropdown-menu li a:hover, .dropdown .dropdown-menu li a:focus, .dropdown .dropdown-menu li a:active {
     color: #ea272d;
 }
+
+.animate-box {
+    opacity: 1 !important;
+}
