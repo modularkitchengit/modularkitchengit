@@ -9,7 +9,8 @@
             restrict: "E",
             replace: true,
             templateUrl: 'views/partials/navbar.html',
-            controller: 'NavBarController'
+            controller: 'NavBarController',
+            controllerAs: 'vm'
         }
     }
 

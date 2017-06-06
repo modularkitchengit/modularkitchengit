@@ -21,7 +21,7 @@
          line-height: 1.1em;
      }
 
-     #fh5co-offcanvas ul li.open > ul {
+     #fh5co-offcanvas ul li > ul {
          display: block;
          background: transparent;
          position: relative;
