@@ -1,3 +1,23 @@
 @media only screen and (max-width: 700px) {
+     .fh5co-nav #fh5co-logo, .fh5co-nav #fh5co-logo a {
+         font-size: 24px;
+         line-height: 1.1em;
+     }
 
+     .fh5co-nav #fh5co-logo {
+         padding: 0 35px;
+     }
+
+     .img-to-responsive > img {
+         width: 100%;
+     }
+
+     .img-to-responsive + div p {
+         margin-top: 0px;
+     }
+
+     .fh5co-section blockquote p {
+         font-size: 24px;
+         line-height: 1.1em;
+     }
 }
