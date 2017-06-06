@@ -9,7 +9,7 @@
                     <li ui-sref-active="active"><a ui-sref="app.home">Home</a></li>
                     <li ui-sref-active="active"><a ui-sref="app.about">About Us</a></li>
                     <li class="dropdown" ui-sref-active="active">
-                        <a class="dropdown-toggle" data-toggle="dropdown" ui-sref="app.products">
+                        <a class="dropdown-toggle" data-toggle="dropdown" ng-click="vm.showDropdownMenu($event)">
                             Products
                             <span class="caret"></span>
                         </a>
@@ -27,7 +27,7 @@
                     </li>
                     <li ui-sref-active="active"><a ui-sref="app.specs">Material Specification</a></li>
                     <li class="dropdown" ui-sref-active="active">
-                        <a class="dropdown-toggle" data-toggle="dropdown" ui-sref="app.designs">
+                        <a class="dropdown-toggle" data-toggle="dropdown">
                             Kitchen Designs
                             <span class="caret"></span>
                         </a>

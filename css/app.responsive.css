@@ -20,4 +20,10 @@
          font-size: 24px;
          line-height: 1.1em;
      }
+
+     #fh5co-offcanvas ul li.open > ul {
+         display: block;
+         background: transparent;
+         position: relative;
+     }
 }

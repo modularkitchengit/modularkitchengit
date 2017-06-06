@@ -8,7 +8,8 @@
         return {
             restrict: "E",
             replace: true,
-            templateUrl: 'views/partials/navbar.html'
+            templateUrl: 'views/partials/navbar.html',
+            controller: 'NavBarController'
         }
     }
 

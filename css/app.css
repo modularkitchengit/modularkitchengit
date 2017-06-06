@@ -42,3 +42,7 @@ header {
 .animate-box {
     opacity: 1 !important;
 }
+
+.fh5co-nav ul li > a {
+    cursor: pointer;
+}
